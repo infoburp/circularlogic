@@ -18,7 +18,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + Math.max(document.documentElement.clientWidth, window.innerWidth || 0) / 2 + "," + diameter / 2 + ")");
 
-d3.json("datasized.json", function(error, root) {
+d3.json("sampledata.json", function(error, root) {
   if (error) return console.error(error);
 
   var focus = root,
