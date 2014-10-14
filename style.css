@@ -1,9 +1,20 @@
 * {
-   margin: 0px;
-   padding: 0px;
+	margin: 0px;
+	padding: 0px;
 }
-#header{z:index:5;position:fixed;left:10px;top:10px;}
-body{overflow:hidden;}
+
+#header {
+	z:index:5;
+	position:fixed;
+	left:10px;
+	top:10px;
+}
+
+body {
+	overflow:hidden;
+	
+}
+
 #article {
 	background-color:#646464;
 	color:white;
@@ -14,38 +25,40 @@ body{overflow:hidden;}
 	height:50%;
 	top:25%;
 	overflow: scroll;
-	  font: 9px Impact, Charcoal, sans-serif;
-	  display:none;overflow-x: hidden;
-    overflow-y: visible;
-
+	font: 9px Impact, Charcoal, sans-serif;
+	display:none;overflow-x: hidden;
+	overflow-y: visible;
 }
+
 .node {
-  cursor: pointer;
-  stroke-width: 2px;
+	cursor: pointer;
+	stroke-width: 2px;
 }
 
 .node:hover {
-  stroke: #4b4b4b;
-  stroke-width: 4px;
+	stroke: #4b4b4b;
+	stroke-width: 4px;
 }
 
 .node--leaf {
-  stroke-width: 2px;
-  fill: #646464;
+	stroke-width: 2px;
+	fill: #646464;
 }
+
 .svg{
-  position:absolute;
-  top:0px;
-  left:0px;
+	position:absolute;
+	top:0px;
+	left:0px;
 }
+
 .label {
-  font: 9px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-anchor: middle;
-  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+	font: 9px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-anchor: middle;
+	text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
 }
 
 .label,
 .node--root,
 .node--leaf {
-  stroke-width: 2px;
+	stroke-width: 2px;
 }
