@@ -16,8 +16,8 @@ circle {
 <body>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
-var margin = {top: 8, right: 8, bottom: 8, left: 8},
-    radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) - 10;
+
+var radius = Math.min(Math.max(document.documentElement.clientWidth, window.innerWidth || 0), Math.max(document.documentElement.clientHeight, window.innerHeight || 0));
 var hue = d3.scale.category10();
 
 var luminance = d3.scale.sqrt()
@@ -26,10 +26,10 @@ var luminance = d3.scale.sqrt()
     .range([90, 20]);
 
 var svg = d3.select("body").append("svg")
-    .attr("width", margin.left + margin.right)
-    .attr("height", margin.top + margin.bottom)
+    .attr("width", radius)
+    .attr("height", radius)
   .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    .attr("transform", "translate(" + 0 + "," + 0 + ")");
 
 var partition = d3.layout.partition()
     .sort(function(a, b) { return d3.ascending(a.name, b.name); })
