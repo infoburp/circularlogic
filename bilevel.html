@@ -93,7 +93,10 @@ d3.json("sampledata.json", function(error, root) {
       .style("fill", function(d) { return d.fill; })
       .each(function(d) { this._current = updateArc(d); })
       .on("click", zoomIn);
-
+path.append("svg:text")
+      .attr("dy", ".35em")
+      .attr("text-anchor", "middle")
+      .text("test");
   function zoomIn(p) {
   	    	$('#article').wikiblurb(
 	  {
@@ -209,10 +212,7 @@ function arcTween(b) {
 function updateArc(d) {
   return {depth: d.depth, x: d.x, dx: d.dx};
 }
-svg.append("svg:text")
-      .attr("dy", ".35em")
-      .attr("text-anchor", "middle")
-      .text("test");
+
 d3.select(self.frameElement).style("height", margin.top + margin.bottom + "px");
 
 </script>
