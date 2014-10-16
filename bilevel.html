@@ -100,6 +100,9 @@ svg.append("svg:text")
   function zoomIn(p) {
     if (p.depth > 1) p = p.parent;
     if (!p.children) {
+    
+    	return;
+    }
     	$('#article').wikiblurb(
 	  {
   		wikiURL: "http://en.wikipedia.org/",
@@ -112,8 +115,6 @@ svg.append("svg:text")
 	  });
     //make the wiki article appear only once the transition animation is finished
 	   setTimeout(function(){$("div").show()}, 750);
-    	return;
-    }
     zoom(p, p);
   }
 
