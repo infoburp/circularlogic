@@ -29,7 +29,7 @@ var svg = d3.select("body").append("svg")
     .attr("width", radius)
     .attr("height", radius)
   .append("g")
-    .attr("transform", "translate(" + 0 + "," + 0 + ")");
+    .attr("transform", "translate(" + radius + "," + radius + ")");
 
 var partition = d3.layout.partition()
     .sort(function(a, b) { return d3.ascending(a.name, b.name); })
