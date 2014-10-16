@@ -91,7 +91,7 @@ d3.json("sampledata.json", function(error, root) {
 svg.append("svg:text")
       .attr("dy", ".35em")
       .attr("text-anchor", "middle")
-      .text(function(d) { return d.name; });
+      .text(function(p) { return p.name; });
   function zoomIn(p) {
     if (p.depth > 1) p = p.parent;
     if (!p.children) {
@@ -100,7 +100,7 @@ svg.append("svg:text")
   		wikiURL: "http://en.wikipedia.org/",
   		apiPath: 'w',
   		section: 0,
-  		page: d.name,
+  		page: p.name,
   		removeLinks: false,
   		type: 'all',
   		customSelector: ''
