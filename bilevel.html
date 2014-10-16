@@ -99,8 +99,8 @@ d3.json("sampledata.json", function(error, root) {
       .attr("d", arc)
       .style("fill", function(d) { return d.fill; })
       .each(function(d) { this._current = updateArc(d); })
-      .on("click", zoomIn);
-path.append("svg:text")
+      .on("click", zoomIn)
+.enter().append("svg:text")
       .attr("dy", ".35em")
       .attr("text-anchor", "middle")
       .text("test");
