@@ -17,9 +17,9 @@ circle {
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
-var margin = {top: 350, right: 480, bottom: 350, left: 480},
-    radius = Math.min(margin.top, margin.right, margin.bottom, margin.left) - 10;
+var margin = {top: 8, right: 8, bottom: 8, left: 8};
 
+var diameter = Math.min(Math.max(document.documentElement.clientWidth, window.innerWidth || 0), Math.max(document.documentElement.clientHeight, window.innerHeight || 0));
 var hue = d3.scale.category10();
 
 var luminance = d3.scale.sqrt()
