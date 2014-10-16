@@ -96,7 +96,7 @@ d3.json("sampledata.json", function(error, root) {
 svg.append("svg:text")
       .attr("dy", ".35em")
       .attr("text-anchor", "middle")
-      .text(function(p) { return p.name; });
+      .text(function(p) { return d.name; });
   function zoomIn(p) {
   	    	$('#article').wikiblurb(
 	  {
