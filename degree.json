@@ -17,76 +17,6 @@
             "children": []
         },
         {
-            "name": "CPU4002",
-            "size": 20,
-            "children": []
-        },
-        {
-            "name": "CPU4004",
-            "size": 20,
-            "children": []
-        },
-        {
-            "name": "CPU5001",
-            "size": 20,
-            "children": []
-        },
-        {
-            "name": "CPU5002",
-            "size": 20,
-            "children": []
-        },
-        {
-            "name": "CPU5003",
-            "size": 20,
-            "children": []
-        },
-        {
-            "name": "CPU5000",
-            "size": 20,
-            "children": []
-        },
-        {
-            "name": "CPU5004",
-            "size": 20,
-            "children": []
-        },
-        {
-            "name": "CPU5005",
-            "size": 20,
-            "children": []
-        },
-        {
-            "name": "CPU6000",
-            "size": 20,
-            "children": []
-        },
-        {
-            "name": "CPU6001",
-            "size": 40,
-            "children": []
-        },
-        {
-            "name": "CPU6002",
-            "size": 20,
-            "children": []
-        },
-        {
-            "name": "CPU6004",
-            "size": 20,
-            "children": []
-        },
-        {
-            "name": "CPU6003",
-            "size": 20,
-            "children": []
-        },
-        {
-            "name": "CPU6005",
-            "size": 20,
-            "children": []
-        },
-        {
             "name": "CPU4001",
             "size": 20,
             "children": [
@@ -183,60 +113,60 @@
                         {
                             "name": "Bolton values: Taught (T), Developed (D) and Assessed (A).",
                             "size": 20
+                        }
+                    ]
+                },
+                {
+                    "name": "Indicative Content",
+                    "size": 20,
+                    "children": [
+                        {
+                            "name": "Analysis and evaluation of website design",
+                            "size": 20
                         },
                         {
-                            "name": "Indicative Content",
-                            "size": 20,
-                            "children": [
-                                {
-                                    "name": "Analysis and evaluation of website design",
-                                    "size": 20
-                                },
-                                {
-                                    "name": "Copyright and the Internet",
-                                    "size": 20
-                                },
-                                {
-                                    "name": "User experience",
-                                    "size": 20
-                                },
-                                {
-                                    "name": "Website accessibility",
-                                    "size": 20
-                                },
-                                {
-                                    "name": "Website production software",
-                                    "size": 20
-                                },
-                                {
-                                    "name": "Hypertext Markup Language (HTML)",
-                                    "size": 20
-                                },
-                                {
-                                    "name": "Cascading Style Sheets (CSS)",
-                                    "size": 20
-                                },
-                                {
-                                    "name": "Javascript (JS)",
-                                    "size": 20
-                                },
-                                {
-                                    "name": "Domain Name Systems (DNS)",
-                                    "size": 20
-                                },
-                                {
-                                    "name": "File Transfer Protocol (FTP)",
-                                    "size": 20
-                                },
-                                {
-                                    "name": "Web Hosting systems",
-                                    "size": 20
-                                },
-                                {
-                                    "name": "Online marketing techniques",
-                                    "size": 20
-                                }
-                            ]
+                            "name": "Copyright and the Internet",
+                            "size": 20
+                        },
+                        {
+                            "name": "User experience",
+                            "size": 20
+                        },
+                        {
+                            "name": "Website accessibility",
+                            "size": 20
+                        },
+                        {
+                            "name": "Website production software",
+                            "size": 20
+                        },
+                        {
+                            "name": "Hypertext Markup Language (HTML)",
+                            "size": 20
+                        },
+                        {
+                            "name": "Cascading Style Sheets (CSS)",
+                            "size": 20
+                        },
+                        {
+                            "name": "Javascript (JS)",
+                            "size": 20
+                        },
+                        {
+                            "name": "Domain Name Systems (DNS)",
+                            "size": 20
+                        },
+                        {
+                            "name": "File Transfer Protocol (FTP)",
+                            "size": 20
+                        },
+                        {
+                            "name": "Web Hosting systems",
+                            "size": 20
+                        },
+                        {
+                            "name": "Online marketing techniques",
+                            "size": 20
                         }
                     ]
                 },
@@ -263,116 +193,186 @@
                         {
                             "name": "incorporate HTML, CSS and JavaScript into your website in order to enhance the presentation, layout and quality of the site’s content.",
                             "size": 20
+                        }
+                    ]
+                },
+                {
+                    "name": "Learning And Teaching Strategy",
+                    "size": 20,
+                    "children": [
+                        {
+                            "name": "A blended learning approach is used in the module which means that you will attend sessions face-to-face and also use online learning. You will attend lectures, seminars and tutorials so that you learn the theoretical content and also have demonstrations and practical hands-on sessions so that you can develop and practice the skills needed to devise your own website. There will also be online sources and activities so that you can explore topics of interest and have online discussions with peers and your tutor. You will also use the internet-based applications to conduct advanced searches. You will also use the internet to find appropriate websites to evaluate prior to creating your own website.",
+                            "size": 20
                         },
                         {
-                            "name": "Learning And Teaching Strategy",
+                            "name": "Learning & Teaching Methods",
                             "size": 20,
                             "children": [
                                 {
-                                    "name": "A blended learning approach is used in the module which means that you will attend sessions face-to-face and also use online learning. You will attend lectures, seminars and tutorials so that you learn the theoretical content and also have demonstrations and practical hands-on sessions so that you can develop and practice the skills needed to devise your own website. There will also be online sources and activities so that you can explore topics of interest and have online discussions with peers and your tutor. You will also use the internet-based applications to conduct advanced searches. You will also use the internet to find appropriate websites to evaluate prior to creating your own website.",
-                                    "size": 20
-                                },
-                                {
-                                    "name": "Learning & Teaching Methods",
+                                    "name": "Hours",
                                     "size": 20,
                                     "children": [
                                         {
-                                            "name": "Hours",
-                                            "size": 20,
-                                            "children": [
-                                                {
-                                                    "name": "67.5 scheduled",
-                                                    "size": 67.5
-                                                },
-                                                {
-                                                    "name": "132.5 independant",
-                                                    "size": 132.5
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Formative Assessment Strategy",
-                            "size": 20,
-                            "children": [
-                                {
-                                    "name": "The timetabled online activity support is intended to provide a mechanism to allow you to gain on-going feedback on the work you are preparing throughout the module. Online tools such as discussion forums and/or wikis will be used to support these activities. You will be able to discuss your work with staff prior to assessment deadlines – this discussion will take place face-to-face and online.",
-                                    "size": 20
-                                }
-                            ]
-                        },
-                        {
-                            "name": "Summative Assessment Strategy",
-                            "size": 20,
-                            "children": [
-                                {
-                                    "name": "There are two items of assessment on which you will be graded and the grades for them will determine your overall grade for the module. In the first, you will write a technical report based upon a case study to demonstrate your achievement of the learning outcomes for the module. In the second, you will analyse a case study and develop a website using the skills you have learned throughout the module. You will also write a report on how you achieved your final design. This work will be assessed by the module academic team and feedback will be provided on the work.",
-                                    "size": 20
-                                },
-                                {
-                                    "name": "Summative Assessments",
-                                    "size": 20,
-                                    "children": [
-                                        {
-                                            "name": "Case study report (50%)",
-                                            "size": 50
+                                            "name": "67.5 scheduled",
+                                            "size": 67.5
                                         },
                                         {
-                                            "name": "Production of website based on HTML/CSS (50%)",
-                                            "size": 50
-                                        },
-                                        {
-                                            "name": "Learning Resources",
-                                            "size": 20,
-                                            "children": [
-                                                {
-                                                    "name": "Krug S (2005) Don't Make Me Think!: A Common Sense Approach to Web Usability. 2nd ed. New Riders.",
-                                                    "size": 20
-                                                },
-                                                {
-                                                    "name": "Lawson, Bruce (2010) Introducing HTML 5. 1st ed. New Riders.",
-                                                    "size": 20
-                                                },
-                                                {
-                                                    "name": "McFarland, David Sawyer (2009) CSS: The Missing Manual. 2nd ed. Pogue Press.",
-                                                    "size": 20
-                                                },
-                                                {
-                                                    "name": "Osborn, Jeremy and AGI Creative Team (2010) Dreamweaver CS5 Digital Classroom. John Wiley & Sons.",
-                                                    "size": 20
-                                                },
-                                                {
-                                                    "name": "Robbins JN (2007) Learning Web Design: A Beginner's Guide to (X)HTML, StyleSheets, and Web Graphics. 3rd ed. O'Reilly.",
-                                                    "size": 20
-                                                },
-                                                {
-                                                    "name": "Robson, Elisabeth (2012) Head First HTML. 2nd ed. O'Reilly Media.",
-                                                    "size": 20
-                                                },
-                                                {
-                                                    "name": "Teague, Jason Cranford (2010) CSS3: Visual QuickStart Guide. 5th ed. Peachpit Press.",
-                                                    "size": 20
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "name": "Feedback to Students",
-                                            "size": 20,
-                                            "children": [
-                                                {
-                                                    "name": "Feedback on formative assessment will be given in class. Feedback on summative assessment work will normally be available within two weeks of the hand-in date and no later than three weeks.",
-                                                    "size": 20
-                                                }
-                                            ]
+                                            "name": "132.5 independant",
+                                            "size": 132.5
                                         }
                                     ]
                                 }
                             ]
                         }
                     ]
+                },
+                {
+                    "name": "Formative Assessment Strategy",
+                    "size": 20,
+                    "children": [
+                        {
+                            "name": "The timetabled online activity support is intended to provide a mechanism to allow you to gain on-going feedback on the work you are preparing throughout the module. Online tools such as discussion forums and/or wikis will be used to support these activities. You will be able to discuss your work with staff prior to assessment deadlines – this discussion will take place face-to-face and online.",
+                            "size": 20
+                        }
+                    ]
+                },
+                {
+                    "name": "Summative Assessment Strategy",
+                    "size": 20,
+                    "children": [
+                        {
+                            "name": "There are two items of assessment on which you will be graded and the grades for them will determine your overall grade for the module. In the first, you will write a technical report based upon a case study to demonstrate your achievement of the learning outcomes for the module. In the second, you will analyse a case study and develop a website using the skills you have learned throughout the module. You will also write a report on how you achieved your final design. This work will be assessed by the module academic team and feedback will be provided on the work.",
+                            "size": 20
+                        }
+                    ]
+                },
+                {
+                    "name": "Summative Assessments",
+                    "size": 20,
+                    "children": [
+                        {
+                            "name": "Case study report (50%)",
+                            "size": 50
+                        },
+                        {
+                            "name": "Production of website based on HTML/CSS (50%)",
+                            "size": 50
+                        },
+                        {
+                            "name": "Learning Resources",
+                            "size": 20,
+                            "children": [
+                                {
+                                    "name": "Krug S (2005) Don't Make Me Think!: A Common Sense Approach to Web Usability. 2nd ed. New Riders.",
+                                    "size": 20
+                                },
+                                {
+                                    "name": "Lawson, Bruce (2010) Introducing HTML 5. 1st ed. New Riders.",
+                                    "size": 20
+                                },
+                                {
+                                    "name": "McFarland, David Sawyer (2009) CSS: The Missing Manual. 2nd ed. Pogue Press.",
+                                    "size": 20
+                                },
+                                {
+                                    "name": "Osborn, Jeremy and AGI Creative Team (2010) Dreamweaver CS5 Digital Classroom. John Wiley & Sons.",
+                                    "size": 20
+                                },
+                                {
+                                    "name": "Robbins JN (2007) Learning Web Design: A Beginner's Guide to (X)HTML, StyleSheets, and Web Graphics. 3rd ed. O'Reilly.",
+                                    "size": 20
+                                },
+                                {
+                                    "name": "Robson, Elisabeth (2012) Head First HTML. 2nd ed. O'Reilly Media.",
+                                    "size": 20
+                                },
+                                {
+                                    "name": "Teague, Jason Cranford (2010) CSS3: Visual QuickStart Guide. 5th ed. Peachpit Press.",
+                                    "size": 20
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Feedback to Students",
+                            "size": 20,
+                            "children": [
+                                {
+                                    "name": "Feedback on formative assessment will be given in class. Feedback on summative assessment work will normally be available within two weeks of the hand-in date and no later than three weeks.",
+                                    "size": 20
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "CPU4002",
+                    "size": 20,
+                    "children": []
+                },
+                {
+                    "name": "CPU4004",
+                    "size": 20,
+                    "children": []
+                },
+                {
+                    "name": "CPU5001",
+                    "size": 20,
+                    "children": []
+                },
+                {
+                    "name": "CPU5002",
+                    "size": 20,
+                    "children": []
+                },
+                {
+                    "name": "CPU5003",
+                    "size": 20,
+                    "children": []
+                },
+                {
+                    "name": "CPU5000",
+                    "size": 20,
+                    "children": []
+                },
+                {
+                    "name": "CPU5004",
+                    "size": 20,
+                    "children": []
+                },
+                {
+                    "name": "CPU5005",
+                    "size": 20,
+                    "children": []
+                },
+                {
+                    "name": "CPU6000",
+                    "size": 20,
+                    "children": []
+                },
+                {
+                    "name": "CPU6001",
+                    "size": 40,
+                    "children": []
+                },
+                {
+                    "name": "CPU6002",
+                    "size": 20,
+                    "children": []
+                },
+                {
+                    "name": "CPU6004",
+                    "size": 20,
+                    "children": []
+                },
+                {
+                    "name": "CPU6003",
+                    "size": 20,
+                    "children": []
+                },
+                {
+                    "name": "CPU6005",
+                    "size": 20,
+                    "children": []
                 }
             ]
         }
