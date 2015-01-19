@@ -1,0 +1,23 @@
+{
+  "name": "Computing & Website Development HND/BSc (Hons)", "children":
+  [
+    {"name": "Scholarship", "size": 20},
+    {"name": "Introduction to Programming", "size": 20},
+    {"name": "Networking Fundamentals", "size": 20},
+    {"name": "Website Production", "size": 20},
+    {"name": "Information Systems & Databases", "size": 20},
+    {"name": "Computer Platforms", "size": 20},
+    {"name": "Web Programming", "size": 20},
+    {"name": "Database Theory & Practice", "size": 20},
+    {"name": "Unix", "size": 20},
+    {"name": "Level 2 Project", "size": 20},
+    {"name": "Mobile Applications Design", "size": 20},
+    {"name": "Internet Applications & Server Systems", "size": 20},
+    {"name": "Professional Issues in Computing", "size": 20},
+    {"name": "Major Project", "size": 40},
+    {"name": "Web Application Project Management", "size": 20},
+    {"name": "Network Security", "size": 20},
+    {"name": "Web and System Based Programming", "size": 20},
+    {"name": "Facilitating E-Commerce", "size": 20}
+  ]
+}
