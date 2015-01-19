@@ -69,19 +69,11 @@ function zoom(d) {
   $("#header").html(d.name);
   //check if the node clicked has children (i.e. is it a leaf node?)
   if(!d.children) {
-    //load an appropriate wiki article for the detailed leaf display on this node.
-    $('#article').wikiblurb(
-	  {
-  		wikiURL: "http://en.wikipedia.org/",
-  		apiPath: 'w',
-  		section: 0,
-  		page: d.name,
-  		removeLinks: false,
-  		type: 'all',
-  		customSelector: ''
-	  });
+    //form a url for the module description page e.g. https://modules.bolton.ac.uk/CPU4001
+    var url = "https://modules.bolton.ac.uk/" + d.name
+    document.getElementById("iframe").source = url;
     //make the wiki article appear only once the transition animation is finished
-	   setTimeout(function(){$("div").show()}, 750);
+	   setTimeout(function(){$("iframe").show()}, 750);
     }
   }
   //zoom resizer
@@ -96,16 +88,7 @@ d3.select(self.frameElement).style("height", diameter + "px");
 //load a default wiki article
 $(document).ready(function()
 {
-	$('#article').wikiblurb(
-	{
-		wikiURL: "http://en.wikipedia.org/",
-		apiPath: 'w',
-		section: 0,
-		page: 'Free software',
-		removeLinks: false,
-		type: 'all',
-		customSelector: ''
-	});
+	
 });
 //set up fancy scroll bars on wiki article
 $(document).ready(function(){
